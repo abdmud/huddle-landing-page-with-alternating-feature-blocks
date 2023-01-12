@@ -1,16 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(193, 100%, 96%);
+    padding-bottom: 5%;
+}
 .nav {
     display: flex;
     justify-content: space-between;
 }
 .hero-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     max-width: 1400px;
-
+    margin-top: 5%;
 }
 .hero-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
+    width: 600px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+}
+p, button {
+    font-family: 'Open Sans', sans-serif;
 }
