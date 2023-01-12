@@ -11,9 +11,14 @@ html, body {
     background-color: hsl(193, 100%, 96%);
     padding-bottom: 5%;
 }
+.hero-div {
+    padding-top: 2%;
+}
 .nav {
     display: flex;
     justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 5%;
 }
 .hero-container {
     display: flex;
@@ -32,6 +37,24 @@ h1 {
     font-weight: 600;
     font-size: 46px;
 }
-p, button {
+p, .nav-btn, .hero-btn  {
     font-family: 'Open Sans', sans-serif;
+}
+.nav-btn, .hero-btn {
+    font-weight: 700;
+}
+.nav-btn {
+    color: black;
+    background-color: white;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+}
+.hero-btn {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
 }
