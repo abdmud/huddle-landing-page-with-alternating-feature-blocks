@@ -26,11 +26,18 @@ html, body {
     max-width: 1400px;
     margin-top: 5%;
 }
+.hero-img img{
+    width: 700px;
+    height: 500px;
+}
 .hero-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 600px;
+    width: 550px;
+}
+.hero-p {
+    margin: -3% 0 5% 0;
 }
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -39,6 +46,7 @@ h1 {
 }
 p, .nav-btn, .hero-btn  {
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 .nav-btn, .hero-btn {
     font-weight: 700;
@@ -57,4 +65,11 @@ p, .nav-btn, .hero-btn  {
     height: 60px;
     border-radius: 30px;
     border: none;
+}
+
+/** MOBILE **/
+@media only screen and (max-width: 375px) {
+    body {
+        width: 370px;
+    }
 }
