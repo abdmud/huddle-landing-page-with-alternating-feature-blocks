@@ -68,7 +68,9 @@ p, .nav-btn, .hero-btn  {
     border-radius: 30px;
     border: none;
 }
-
+.feature-block {
+    border: black solid 1px;
+}
 /** MOBILE **/
 @media only screen and (max-width: 375px) {
     body {
