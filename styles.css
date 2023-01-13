@@ -69,7 +69,7 @@ p, .nav-btn, .hero-btn  {
     border: none;
 }
 .feature-block {
-    border: black solid 1px;
+    border: black solid 1px; 
 }
 /** MOBILE **/
 @media only screen and (max-width: 375px) {
