@@ -46,11 +46,14 @@ h1 {
     font-weight: 600;
     font-size: 46px;
 }
-p, .nav-btn, .hero-btn  {
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+p, .nav-btn, .hero-btn , .cta-button {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
-.nav-btn, .hero-btn {
+.nav-btn, .hero-btn, .cta-button {
     font-weight: 700;
     font-size: 16px;
 }
@@ -61,7 +64,7 @@ p, .nav-btn, .hero-btn  {
     border-radius: 30px;
     border: none;
 }
-.hero-btn {
+.hero-btn, .cta-button {
     color: white;
     background-color: hsl(322, 100%, 66%);
     width: 300px;
@@ -99,14 +102,31 @@ p, .nav-btn, .hero-btn  {
     height: 400px;
     width: 400px;
 }
-.card-content h2 {
+.card-content h2,
+.card-div h2 {
     color: hsl(192, 100%, 9%);
-    font-size: 30px;
+    font-size: 26px;
 }
 .card-content p {
     color: hsl(208, 11%, 55%);
     margin-top: -3%;
 }
+/** CARD **/
+.card-section {
+    display: flex;
+    justify-content: center;
+}
+.card-div {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: hsl(208, 11%, 55%) 0px 5px 10px;
+}
+/** FOOTER **/
 /** MOBILE **/
 @media only screen and (max-width: 375px) {
     body {
