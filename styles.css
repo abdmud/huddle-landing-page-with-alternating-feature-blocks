@@ -128,22 +128,35 @@ p, .nav-btn, .hero-btn , .cta-button {
 }
 /** FOOTER **/
 .footer {
-    background-color: hsl(192, 100%, 9%);
-    color: hsl(193, 100%, 96%);
+    border: solid 1px red;
+    /*color: hsl(193, 100%, 96%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    width: 90%;
+    border: solid 1px blue;
 }
 .site-links {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 200px;
+    height: 180px;
+}
+.site-links .left {
+    margin-left: 30%;
 }
 .footer-logo img{
     color: #ffff;
+}
+.rights {
+    display: flex;
+    justify-content: flex-end;
 }
 /** MOBILE **/
 @media only screen and (max-width: 375px) {
