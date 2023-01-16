@@ -73,7 +73,7 @@ p, .nav-btn, .hero-btn  {
 .features {
     border: black solid 1px;
     margin-top: 10%;
-    height: 700px;
+    height: 1400px;
 }
 .features-container {
     display: flex;
@@ -82,13 +82,21 @@ p, .nav-btn, .hero-btn  {
     justify-items: center;
 }
 .card-feature {
-    border: red solid 1px;
+    border: hsl(208, 11%, 55%) solid 2px;
+    border-radius: 10px;
     width: 90%;
     display: flex;
+    justify-content: space-evenly;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
 }
 .card-img img {
     object-fit: contain;
-    height: 500px;
+    height: 400px;
     width: 400px;
 }
 /** MOBILE **/
