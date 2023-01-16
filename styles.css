@@ -4,6 +4,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 1440px;
 }
 .hero {
     background-image: url(./images/bg-hero-desktop.svg);
@@ -68,8 +69,27 @@ p, .nav-btn, .hero-btn  {
     border-radius: 30px;
     border: none;
 }
-.feature-block {
-    border: black solid 1px; 
+/** FEATURES BLOCK **/
+.features {
+    border: black solid 1px;
+    margin-top: 10%;
+    height: 700px;
+}
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.card-feature {
+    border: red solid 1px;
+    width: 90%;
+    display: flex;
+}
+.card-img img {
+    object-fit: contain;
+    height: 500px;
+    width: 400px;
 }
 /** MOBILE **/
 @media only screen and (max-width: 375px) {
