@@ -82,8 +82,8 @@ p, .nav-btn, .hero-btn  {
     justify-items: center;
 }
 .card-feature {
-    border: hsl(208, 11%, 55%) solid 2px;
     border-radius: 10px;
+    box-shadow: hsl(208, 11%, 55%) 0px 5px 15px;
     width: 90%;
     display: flex;
     justify-content: space-evenly;
