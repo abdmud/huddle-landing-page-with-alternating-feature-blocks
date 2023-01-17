@@ -297,8 +297,9 @@ p, .nav-btn, .hero-btn , .cta-button {
         height: 9.375rem;
         box-shadow: hsl(208, 11%, 55%) 0px 0px 5px;
     }
-    .footer-logo {
+    .footer-logo img{
         margin-top: 5%;
+        fill: white;
     }
     .footer {
         width: 23.4375rem;
