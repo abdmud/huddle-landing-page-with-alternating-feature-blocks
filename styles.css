@@ -115,9 +115,10 @@ p, .nav-btn, .hero-btn , .cta-button {
 .card-section {
     display: flex;
     justify-content: center;
+    margin-top: 10%;
 }
 .card-div {
-    width: 500px;
+    width: 600px;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -125,11 +126,15 @@ p, .nav-btn, .hero-btn , .cta-button {
     align-items: center;
     border-radius: 10px;
     box-shadow: hsl(208, 11%, 55%) 0px 5px 10px;
+    background-color: #ffff;
 }
 /** FOOTER **/
 .footer {
-    border: solid 1px red;
-    /*color: hsl(193, 100%, 96%);*/
+    color: hsl(193, 100%, 96%);
+    background-color: hsl(192, 100%, 9%);
+    height: 400px;
+    padding-top: 15%;
+    margin-top: -5%;
 }
 .footer-div {
     display: flex;
@@ -162,8 +167,9 @@ p, .nav-btn, .hero-btn , .cta-button {
     align-items: center;
     gap: 10px;
 }
-.footer-logo img{
-    color: #ffff;
+#footer-logo {
+    fill: #ffff;
+    padding-left: 5%;
 }
 .sm-icons {
     display: flex;
@@ -172,7 +178,7 @@ p, .nav-btn, .hero-btn , .cta-button {
     margin-left: 5%;
 }
 .fa-brands {
-    border: solid 1px black;
+    border: solid 1px white;
     border-radius: 15px;
     height: 24px;
     width: 24px;
@@ -184,6 +190,7 @@ p, .nav-btn, .hero-btn , .cta-button {
 .rights {
     display: flex;
     justify-content: flex-end;
+    padding-right: 5%;
 }
 /** MOBILE **/
 @media only screen and (max-width: 375px) {
