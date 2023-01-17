@@ -290,6 +290,11 @@ p, .nav-btn, .hero-btn , .cta-button {
         margin-top: -3%;
         font-size: 14px;
     }
+    .card-div {
+        width: 350px;
+        height: 150px;
+        box-shadow: hsl(208, 11%, 55%) 0px 0px 5px;
+    }
     .footer {
         width: 375px;
     }
