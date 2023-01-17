@@ -197,7 +197,7 @@ p, .nav-btn, .hero-btn , .cta-button {
 /** MOBILE **/
 @media only screen and (max-width: 375px) {
     html, body {
-        width: 375px;
+        width: 23.4375rem;
         margin: 0;
         padding: 0;
     }
@@ -210,11 +210,11 @@ p, .nav-btn, .hero-btn , .cta-button {
     }
     .nav img {
         object-fit: contain;
-        width: 150px; 
+        width: 9.375rem; 
     }
     .nav-btn {
-        width: 100px;
-        font-size: 12px;
+        width: 6.25rem;
+        font-size: 0.75rem;
     }
     .hero {
         background-image: url(./images/bg-hero-mobile.svg);
@@ -228,8 +228,8 @@ p, .nav-btn, .hero-btn , .cta-button {
         justify-content: center;
     }
     .hero-img img {
-        width: 300px;
-        height: 300px;
+        width: 18.75rem;
+        height: 18.75rem;
         object-fit: contain;
     }
      .hero-container {
@@ -240,29 +240,29 @@ p, .nav-btn, .hero-btn , .cta-button {
         margin-left: 0;
     }
     h1 {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
     .hero-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 370px;
+        width: 23.125rem;
         text-align: center;
         margin: 0;
     }
     .hero-btn {
-        width: 250px;
-        height: 40px;
+        width: 15.625rem;
+        height: 2.5rem;
         margin-left: 15%;
-        font-size: 12px;
+        font-size: 0.75rem;
     }
     .features {
         margin-top: 10%;
-        height: 1200px;
+        height: 75rem;
     }
     .card-feature {
         width: 90%;
-        height: 360px;
+        height: 22.5rem;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -270,43 +270,43 @@ p, .nav-btn, .hero-btn , .cta-button {
     }
     .card-img img {
         object-fit: contain;
-        height: 200px;
-        width: 200px;
+        height: 12.5rem;
+        width: 12.5rem;
     }
     .card-content {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 300px;
+        width: 18.75rem;
     }
     .card-content h2,
     .card-div h2 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     .card-content p {
         text-align: center;
         margin-top: -3%;
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     .card-section {
         margin-bottom: -15%;
     }
     .card-div {
-        width: 350px;
-        height: 150px;
+        width: 21.875rem;
+        height: 9.375rem;
         box-shadow: hsl(208, 11%, 55%) 0px 0px 5px;
     }
     .footer-logo {
         margin-top: 5%;
     }
     .footer {
-        width: 375px;
-        height: 650px;
+        width: 23.4375rem;
+        height: 40.625rem;
         padding-top: 20%;
     }
     .footer p {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
     .footer-container {
         display: flex;
@@ -321,12 +321,12 @@ p, .nav-btn, .hero-btn , .cta-button {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        height: 200px;
+        height: 12.5rem;
         margin-top: 15%;
         margin-bottom: 12%;
     }
     .site-links p {
-        font-size: 16px;
+        font-size: 1rem;
     }
     .site-links .left {
         margin-left: 0;
@@ -336,7 +336,7 @@ p, .nav-btn, .hero-btn , .cta-button {
         justify-content: center;
     }
     .rights {
-        font-size: 8px;
+        font-size: 0.5rem;
         justify-content: center;
         margin-top: 5%;
         padding: 0;
