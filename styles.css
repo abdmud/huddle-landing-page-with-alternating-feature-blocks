@@ -195,7 +195,7 @@ p, .nav-btn, .hero-btn , .cta-button {
     padding-top: 5%;
 }
 /** MOBILE **/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 380px) {
     html, body {
         width: 23.4375rem;
         margin: 0;
