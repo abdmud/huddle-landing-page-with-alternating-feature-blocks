@@ -146,7 +146,6 @@ p, .nav-btn, .hero-btn , .cta-button {
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1fr;
     width: 90%;
-    border: solid 1px blue;
 }
 .site-links {
     display: flex;
@@ -290,18 +289,56 @@ p, .nav-btn, .hero-btn , .cta-button {
         margin-top: -3%;
         font-size: 14px;
     }
+    .card-section {
+        margin-bottom: -15%;
+    }
     .card-div {
         width: 350px;
         height: 150px;
         box-shadow: hsl(208, 11%, 55%) 0px 0px 5px;
     }
+    .footer-logo {
+        margin-top: 5%;
+    }
     .footer {
         width: 375px;
+        height: 650px;
+        padding-top: 20%;
+    }
+    .footer p {
+        font-size: 12px;
     }
     .footer-container {
         display: flex;
         flex-direction: column;
         width: 90%;
-        border: solid 1px blue;
+        margin-top: 10%;
+    }
+    .footer-div {
+        gap: 5%;
+    }
+    .site-links {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 200px;
+        margin-top: 15%;
+        margin-bottom: 12%;
+    }
+    .site-links p {
+        font-size: 16px;
+    }
+    .site-links .left {
+        margin-left: 0;
+    }
+    .sm-icons {
+        display: flex;
+        justify-content: center;
+    }
+    .rights {
+        font-size: 8px;
+        justify-content: center;
+        margin-top: 5%;
+        padding: 0;
     }
 }
