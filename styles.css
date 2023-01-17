@@ -130,6 +130,8 @@ p, .nav-btn, .hero-btn , .cta-button {
 .footer {
     border: solid 1px red;
     /*color: hsl(193, 100%, 96%);*/
+}
+.footer-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,7 +139,7 @@ p, .nav-btn, .hero-btn , .cta-button {
 }
 .footer-container {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
     width: 90%;
     border: solid 1px blue;
 }
@@ -150,6 +152,15 @@ p, .nav-btn, .hero-btn , .cta-button {
 }
 .site-links .left {
     margin-left: 30%;
+}
+.company-info {
+    display: flex;
+    flex-direction: column;
+}
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .footer-logo img{
     color: #ffff;
