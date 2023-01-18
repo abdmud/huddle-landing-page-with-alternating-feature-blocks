@@ -192,12 +192,11 @@ p, .nav-btn, .hero-btn , .cta-button {
     display: flex;
     justify-content: flex-end;
     padding-right: 5%;
-    padding-top: 5%;
 }
 /** MOBILE **/
 @media only screen and (max-width: 380px) {
     html, body {
-        width: 23.4375rem;
+        width: 23.75rem;
         margin: 0;
         padding: 0;
     }
@@ -302,9 +301,11 @@ p, .nav-btn, .hero-btn , .cta-button {
         fill: white;
     }
     .footer {
-        width: 23.4375rem;
-        height: 40.625rem;
+        width: 23.75rem;
+        height: 44.72rem;
         padding-top: 20%;
+        align-items: center;
+        align-content: center;
     }
     .footer p {
         font-size: 0.75rem;
@@ -336,10 +337,10 @@ p, .nav-btn, .hero-btn , .cta-button {
         display: flex;
         justify-content: center;
     }
-    .rights {
+    .rights{
         font-size: 0.5rem;
-        justify-content: center;
-        margin-top: 5%;
-        padding: 0;
+        width: 380px;
+        margin-left: -15%;
+        margin-top: 10%;
     }
 }
